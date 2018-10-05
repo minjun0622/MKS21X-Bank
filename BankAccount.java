@@ -1,10 +1,10 @@
 public class BankAccount {
 
   private double balance;
-  private int accountID;
+  private double accountID;
   private String password;
 
-  public BankAccount (int accountID, double balance, String password) {
+  public BankAccount (double accountID, double balance, String password) {
   this.accountID = accountID;
   this.balance = balance;
   this.password = password;
@@ -18,7 +18,7 @@ public class BankAccount {
     return balance;
   }
 
-  public int getAccountID() {
+  public double getAccountID() {
     return accountID;
   }
 
